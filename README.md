@@ -117,5 +117,5 @@ For support or inquiries:
 
 <div align="center">
   <p>Made with ❤️ for the Free Fire community</p>
-  <p>© 2024 Craftland Hub. All rights reserved.</p>
+  <p>© 2025 Craftland Hub. All rights reserved.</p>
 </div>
