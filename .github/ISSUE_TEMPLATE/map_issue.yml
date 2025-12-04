@@ -1,0 +1,75 @@
+name: 🗺️ Map Issue
+description: Report an issue with a specific map (incorrect info, inappropriate content, etc.)
+title: "[Map Issue]: "
+labels: ["map-issue", "needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping us maintain quality! Please provide details about the map issue.
+
+  - type: input
+    id: map-code
+    attributes:
+      label: Map Code
+      description: The map code (e.g., #FREEFIRE123456)
+      placeholder: "#FREEFIRE123456"
+    validations:
+      required: true
+
+  - type: input
+    id: map-url
+    attributes:
+      label: Map URL
+      description: Link to the map on Craftland Hub (if available)
+      placeholder: "https://craftlandhub.freefirecommunity.com/map/..."
+
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Issue Type
+      description: What type of issue are you reporting?
+      options:
+        - Inappropriate Content
+        - Incorrect Information
+        - Broken/Non-functional Map
+        - Duplicate Map
+        - Copyright Violation
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Issue Description
+      description: Please describe the issue in detail
+      placeholder: Tell us what's wrong with this map...
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence/Screenshots
+      description: If applicable, provide screenshots or other evidence
+      placeholder: Drag and drop images here or paste image URLs
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: How severe is this issue?
+      options:
+        - Low - Minor issue
+        - Medium - Needs attention
+        - High - Urgent (inappropriate/harmful content)
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: Any other relevant information
+      placeholder: Any additional context...
