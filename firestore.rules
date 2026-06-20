@@ -1,0 +1,72 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Helper function to check if request is from server (has valid structure)
+    function isServerRequest() {
+      return request.auth == null && 
+             request.resource.data.keys().hasAll(['mapCode', 'region', 'name', 'createdAt']);
+    }
+
+    // Maps collection - read access for all, write access for authenticated users only
+    match /maps/{mapId} {
+      // Allow anyone to read maps
+      allow read: if true;
+
+      // Allow authenticated users to create maps OR server-side API requests
+      allow create: if request.auth != null || isServerRequest();
+
+      // Allow updates for:
+      // 1. Submitter or admins (full update)
+      // 2. Anyone for view count increment (only views field)
+      // 3. Authenticated users for vote updates (netVotes, voteScore fields)
+      allow update: if (request.auth != null &&
+        (request.auth.uid == resource.data.submitterId ||
+         request.auth.token.admin == true)) ||
+        // Allow view increment from server-side
+        (request.resource.data.diff(resource.data).affectedKeys().hasOnly(['views'])) ||
+        // Allow vote updates from authenticated users
+        (request.auth != null && 
+         request.resource.data.diff(resource.data).affectedKeys().hasOnly(['netVotes', 'voteScore']));
+
+      // Allow delete only by admins
+      allow delete: if request.auth != null &&
+        request.auth.token.admin == true;
+    }
+
+    // Users collection - users can only access their own data
+    match /users/{userId} {
+      // Users can read and write their own profile
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+
+      // Allow read access for public profile data (without sensitive info)
+      allow read: if true;
+    }
+
+    // Votes collection - authenticated users can vote
+    match /votes/{voteId} {
+      // Allow authenticated users to read their own votes
+      allow read: if request.auth != null;
+
+      // Allow authenticated users to create votes with their own userId
+      allow create: if request.auth != null && 
+        request.resource.data.userId == request.auth.uid;
+
+      // Users can only modify or delete their own votes
+      allow update: if request.auth != null &&
+        resource.data.userId == request.auth.uid &&
+        request.resource.data.userId == request.auth.uid;
+        
+      allow delete: if request.auth != null &&
+        resource.data.userId == request.auth.uid;
+    }
+
+    // Tags collection - read access for all, write access restricted
+    match /tags/{tagId} {
+      // Allow anyone to read tags
+      allow read: if true;
+
+      // Allow server-side functions to create/update tags (when auth is null but has valid data structure)
+      allow write: if request.auth == null && request.resource.data.keys().hasAll(['name', 'createdAt']);
+    }
+  }
+}

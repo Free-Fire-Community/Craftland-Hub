@@ -1,0 +1,607 @@
+{
+  "common": {
+    "appName": "Craftland Hub",
+    "loading": "Carregando...",
+    "error": "Ocorreu um erro",
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "save": "Salvar",
+    "delete": "Excluir",
+    "edit": "Editar",
+    "search": "Pesquisar",
+    "searchPlaceholder": "Pesquisar por nome, autor ou código...",
+    "searchPlaceholderShort": "Pesquisar...",
+    "filter": "Filtrar",
+    "sort": "Ordenar",
+    "close": "Fechar",
+    "back": "Voltar",
+    "next": "Próximo",
+    "previous": "Anterior",
+    "viewMore": "Ver Mais",
+    "noResults": "Nenhum resultado encontrado",
+    "mapsCount": "{count, plural, =0 {nenhum mapa} one {# mapa} other {# mapas}}",
+    "playersCount": "{count, plural, =0 {nenhum jogador} one {# jogador} other {# jogadores}}",
+    "minutesCount": "{count, plural, =0 {nenhum minuto} one {# minuto} other {# minutos}}"
+  },
+  "navigation": {
+    "home": "Início",
+    "browse": "Explorar",
+    "submit": "Enviar Mapa",
+    "categories": "Categorias",
+    "about": "Sobre",
+    "terms": "Termos de Serviço",
+    "privacy": "Política de Privacidade",
+    "disclaimer": "Aviso Legal",
+    "contact": "Contato"
+  },
+  "home": {
+    "title": "Descubra Mapas Incríveis do Craftland",
+    "subtitle": "Navegue, envie e avalie mapas personalizados para Free Fire",
+    "trending": "Mapas em Alta",
+    "topRated": "Mais Bem Avaliados",
+    "recentlyAdded": "Adicionados Recentemente",
+    "mostViewed": "Mais Visualizados",
+    "categories": "Categorias",
+    "exploreAll": "Explorar Todos os Mapas",
+    "noMaps": "Nenhum mapa disponível ainda"
+  },
+  "submit": {
+    "title": "Enviar um Novo Mapa",
+    "subtitle": "Compartilhe sua incrível criação do Craftland com a comunidade.",
+    "mapCode": "Código do Mapa",
+    "mapCodePlaceholder": "#FREEFIRE123456",
+    "mapCodeDescription": "O código único do seu mapa Craftland. Inclua o prefixo # ou ele será adicionado automaticamente.",
+    "mapCodeRequired": "O código do mapa é obrigatório.",
+    "region": "Região",
+    "regionPlaceholder": "Selecione a região do mapa",
+    "regionDescription": "Isso ajuda os jogadores a encontrar mapas disponíveis em sua região.",
+    "regionRequired": "A região é obrigatória.",
+    "regions": {
+      "IND": "Índia (IND)",
+      "BR": "Brasil (BR)",
+      "US": "Estados Unidos (US)",
+      "EU": "Europa (EU)",
+      "SEA": "Sudeste Asiático (SEA)",
+      "MENA": "Oriente Médio e Norte da África (MENA)",
+      "other": "Outro"
+    },
+    "tags": "Tags / Categorias",
+    "tagsPlaceholder": "ex: Parkour, Diversão, 1v1",
+    "tagsDescription": "Tags separadas por vírgula para ajudar outros a descobrir seu mapa. A IA sugerirá tags adicionais.",
+    "notes": "Notas (Opcional)",
+    "notesPlaceholder": "ex: Melhor jogado com amigos, requer trabalho em equipe",
+    "notesDescription": "Adicione notas ou dicas adicionais sobre este mapa para outros jogadores.",
+    "fetchButton": "Buscar e Visualizar Mapa",
+    "fetchingButton": "Buscando Dados do Mapa...",
+    "submitButton": "Enviar para a Comunidade",
+    "submittingButton": "Enviando para a Comunidade...",
+    "mapPreview": "Visualização do Mapa",
+    "fetchedSuccessfully": "Buscado com Sucesso",
+    "teamSize": "Tamanho da Equipe:",
+    "playTime": "Tempo de Jogo:",
+    "subscribers": "Inscritos:",
+    "likes": "Curtidas:",
+    "description": "Descrição",
+    "players": "jogadores",
+    "min": "min",
+    "by": "Por",
+    "toast": {
+      "fetchSuccess": "Dados do Mapa Obtidos!",
+      "fetchSuccessDescription": "Encontrado: {mapName} por {authorName}",
+      "fetchError": "Mapa Não Encontrado",
+      "fetchErrorDescription": "Não foi possível obter os dados do mapa. Verifique o código e a região.",
+      "fetchFailed": "Erro",
+      "fetchFailedDescription": "Falha ao buscar dados do mapa. Tente novamente.",
+      "submitNoData": "Erro",
+      "submitNoDataDescription": "Nenhum dado de mapa disponível para enviar. Busque os dados do mapa primeiro.",
+      "submitSuccess": "Sucesso!",
+      "submitSuccessDescription": "Mapa enviado para a comunidade com sucesso!",
+      "submitFailed": "Envio Falhou",
+      "submitFailedDescription": "Falha ao enviar mapa para a comunidade.",
+      "submitError": "Erro",
+      "submitErrorDescription": "Falha ao enviar mapa. Tente novamente."
+    }
+  },
+  "mapCard": {
+    "views": "{count, plural, =0 {sem visualizações} one {# visualização} other {# visualizações}}",
+    "votes": "{count, plural, =0 {sem votos} one {# voto} other {# votos}}",
+    "likes": "{count, plural, =0 {sem curtidas} one {# curtida} other {# curtidas}}",
+    "playTime": "Tempo de Jogo",
+    "minutes": "min",
+    "teams": "equipes",
+    "author": "por",
+    "category": "Categoria",
+    "rating": "Avaliação",
+    "playNow": "Jogar Agora",
+    "viewDetails": "Ver Detalhes",
+    "share": "Compartilhar",
+    "addedAgo": "Adicionado {time}",
+    "authRequired": "Autenticação Necessária",
+    "authRequiredDesc": "Por favor, faça login para votar nos mapas",
+    "voteSuccess": "Voto Registrado",
+    "upvoted": "Mapa votado positivamente com sucesso",
+    "downvoted": "Mapa votado negativamente com sucesso",
+    "voteError": "Erro ao Votar",
+    "voteErrorDesc": "Não foi possível registrar seu voto. Por favor, tente novamente."
+  },
+  "auth": {
+    "signIn": "Entrar",
+    "signOut": "Sair",
+    "signInWithGoogle": "Entrar com Google",
+    "signInAnonymously": "Continuar como Convidado",
+    "profile": "Perfil",
+    "mySubmissions": "Minhas Submissões",
+    "welcome": "Bem-vindo",
+    "signInRequired": "Por favor, entre para continuar",
+    "signInRequiredToSubmit": "Login necessário para enviar mapas",
+    "signInRequiredDescription": "Você precisa entrar com o Google para enviar mapas para a comunidade. Isso nos ajuda a manter a qualidade e prevenir spam.",
+    "signInSuccess": "Login realizado com sucesso",
+    "signOutSuccess": "Logout realizado com sucesso"
+  },
+  "profile": {
+    "signOut": "Sair",
+    "mySubmissions": "Minhas Submissões",
+    "myVotes": "Meus Votos",
+    "submittedMaps": "Mapas Enviados",
+    "submittedMapsDescription": "Mapas que você enviou para a comunidade",
+    "votedMaps": "Mapas Votados",
+    "votedMapsDescription": "Mapas em que você votou",
+    "noSubmissions": "Você ainda não enviou nenhum mapa",
+    "submitFirstMap": "Envie Seu Primeiro Mapa",
+    "noVotes": "Você ainda não votou em nenhum mapa",
+    "exploreMaps": "Explorar Mapas"
+  },
+  "mapDetail": {
+    "backToHome": "Voltar ao Início",
+    "by": "por",
+    "views": "Visualizações",
+    "likes": "Curtidas",
+    "votes": "Votos",
+    "subscribers": "Inscritos",
+    "mapCode": "Código do Mapa",
+    "copy": "Copiar",
+    "details": "Detalhes",
+    "description": "Descrição",
+    "category": "Categoria",
+    "gameMode": "Modo de Jogo",
+    "teamSize": "Tamanho da Equipe",
+    "playTime": "Tempo de Jogo",
+    "difficulty": "Dificuldade",
+    "region": "Região",
+    "submittedBy": "Enviado Por",
+    "submittedOn": "Enviado Em",
+    "tags": "Tags",
+    "submitterNotes": "Notas do Remetente",
+    "openInGame": "Abrir no Jogo",
+    "moreLikeThis": "Mais Como Este",
+    "share": "Compartilhar",
+    "linkCopied": "Link Copiado!",
+    "linkCopiedDescription": "Link de compartilhamento copiado para a área de transferência",
+    "shareError": "Erro ao Compartilhar",
+    "shareErrorDescription": "Não foi possível compartilhar este mapa"
+  },
+  "category": {
+    "backToHome": "Voltar ao Início",
+    "mapsFound": "{count, plural, =0 {Nenhum mapa encontrado} one {# mapa encontrado} other {# mapas encontrados}}",
+    "noMaps": "Ainda não há mapas nesta categoria",
+    "noMapsDescription": "Seja o primeiro a enviar um mapa nesta categoria!",
+    "submitFirst": "Enviar Primeiro Mapa"
+  },
+  "search": {
+    "title": "Pesquisar Mapas",
+    "subtitle": "Encontre mapas por código, nome do criador ou remetente",
+    "placeholder": "Pesquisar por código, criador ou nome do remetente...",
+    "searchButton": "Pesquisar",
+    "searchHint": "Tente pesquisar por:",
+    "backToHome": "Voltar ao Início",
+    "resultsCount": "{count, plural, =0 {Sem resultados} one {# resultado} other {# resultados}} para \"{query}\"",
+    "noResults": "Nenhum mapa encontrado",
+    "noResultsDescription": "Não conseguimos encontrar mapas correspondentes à sua pesquisa.",
+    "trySearching": "Tente pesquisar por:",
+    "searchTip1": "Código do mapa (ex., #123456)",
+    "searchTip2": "Nome do criador",
+    "searchTip3": "Nome do remetente ou palavras-chave"
+  },
+  "footer": {
+    "description": "Descubra, envie e avalie mapas personalizados do Craftland para Free Fire.",
+    "quickLinks": "Links Rápidos",
+    "community": "Comunidade",
+    "support": "Suporte",
+    "legal": "Legal",
+    "followUs": "Siga-nos",
+    "topContributors": "Principais Contribuidores",
+    "guidelines": "Diretrizes",
+    "reportIssue": "Reportar Problema",
+    "officialCraftland": "Site Oficial do Craftland",
+    "creatorProgram": "Programa de Criadores do Craftland",
+    "copyright": "© 2024 Craftland Hub. Todos os direitos reservados.",
+    "madeWith": "Feito com",
+    "forCommunity": "para a comunidade Free Fire",
+    "disclaimer": "Projeto independente de fãs • Não afiliado à Garena ou Free Fire"
+  },
+  "about": {
+    "meta": {
+      "title": "Sobre - Craftland Hub",
+      "description": "Conheça o Craftland Hub, uma plataforma impulsionada pela comunidade para mapas personalizados do Free Fire."
+    },
+    "hero": {
+      "badge": "Impulsionado pela Comunidade",
+      "title": "Sobre o",
+      "titleHighlight": "Craftland Hub",
+      "subtitle": "Seu destino definitivo para descobrir, compartilhar e avaliar mapas personalizados do Craftland para a comunidade Free Fire. Feito por jogadores, para jogadores."
+    },
+    "mission": {
+      "badge": "Nossa Missão",
+      "title": "Capacitando a Comunidade Craftland",
+      "paragraph1": "O Craftland Hub foi criado para promover uma comunidade vibrante de criadores de mapas e jogadores no ecossistema Free Fire. Acreditamos que os mapas personalizados são o coração do que torna o Craftland especial, e nossa plataforma serve como uma ponte entre criadores talentosos e jogadores entusiasmados.",
+      "paragraph2": "Nosso objetivo é fornecer um espaço seguro, organizado e envolvente onde a comunidade possa descobrir novas experiências, compartilhar suas criações e construir conexões duradouras através do amor compartilhado por mapas personalizados do Craftland.",
+      "stats": {
+        "maps": "Em Breve",
+        "mapsLabel": "Mapas Personalizados",
+        "members": "Crescendo",
+        "membersLabel": "Membros da Comunidade",
+        "categories": "Múltiplas",
+        "categoriesLabel": "Categorias",
+        "support": "24/7",
+        "supportLabel": "Suporte da Comunidade"
+      }
+    },
+    "features": {
+      "badge": "O Que Oferecemos",
+      "title": "Tudo o Que Você Precisa",
+      "subtitle": "Descubra os recursos que fazem do Craftland Hub a plataforma ideal para entusiastas de mapas personalizados",
+      "discovery": {
+        "title": "Descoberta de Mapas",
+        "description": "Navegue por milhares de mapas criados por usuários em várias categorias, desde batalhas cheias de ação até desafios criativos. Encontre seu próximo mapa favorito com facilidade."
+      },
+      "community": {
+        "title": "Impulsionado pela Comunidade",
+        "description": "Junte-se a uma comunidade próspera de criadores e jogadores. Compartilhe seus mapas, avalie outros e conecte-se com outros entusiastas que compartilham sua paixão."
+      },
+      "quality": {
+        "title": "Garantia de Qualidade",
+        "description": "Cada mapa passa por revisão da comunidade e sistema de avaliação para garantir qualidade e jogo justo para todos os usuários. Confie no julgamento da nossa comunidade."
+      }
+    },
+    "stats": {
+      "title": "Crescendo Juntos",
+      "subtitle": "Nossa comunidade está crescendo mais forte a cada dia, criando experiências incríveis para jogadores de Free Fire em todo o mundo",
+      "rating": "Em Breve",
+      "ratingLabel": "Avaliação Média",
+      "satisfaction": "Crescendo",
+      "satisfactionLabel": "Taxa de Satisfação",
+      "response": "Rápido",
+      "responseLabel": "Tempo Médio de Resposta",
+      "creators": "Ativos",
+      "creatorsLabel": "Criadores da Comunidade"
+    },
+    "cta": {
+      "badge": "Junte-se à Nossa Comunidade",
+      "title": "Pronto para Começar Sua Jornada?",
+      "subtitle": "Seja você um criador de mapas experiente ou apenas descobrindo o mundo dos mapas personalizados do Craftland, há um lugar para você em nossa comunidade. Comece a explorar, criar e conectar-se hoje!",
+      "submitButton": "Enviar Seu Mapa",
+      "browseButton": "Explorar Mapas"
+    }
+  },
+  "terms": {
+    "meta": {
+      "title": "Termos de Serviço - Craftland Hub",
+      "description": "Termos de Serviço e diretrizes de uso do Craftland Hub."
+    },
+    "hero": {
+      "badge": "Legal",
+      "title": "Termos de",
+      "titleHighlight": "Serviço",
+      "subtitle": "Por favor, leia estes termos cuidadosamente antes de usar o Craftland Hub"
+    },
+    "notice": {
+      "title": "Aviso Importante",
+      "lastUpdated": "Última atualização:"
+    },
+    "sections": {
+      "acceptance": {
+        "title": "1. Aceitação dos Termos",
+        "content": "Ao acessar e usar o Craftland Hub, você aceita e concorda em estar vinculado aos termos e disposições deste acordo. Se você não concordar em cumprir o acima, por favor não use este serviço."
+      },
+      "license": {
+        "title": "2. Licença de Uso",
+        "intro": "É concedida permissão para acessar temporariamente os materiais (informações ou software) no Craftland Hub apenas para visualização pessoal e não comercial. Esta é a concessão de uma licença, não uma transferência de título, e sob esta licença você não pode:",
+        "items": [
+          "modificar ou copiar os materiais",
+          "usar os materiais para qualquer propósito comercial ou para qualquer exibição pública",
+          "tentar descompilar ou fazer engenharia reversa de qualquer software contido no Craftland Hub",
+          "remover quaisquer direitos autorais ou outras notações proprietárias dos materiais"
+        ]
+      },
+      "userContent": {
+        "title": "3. Conteúdo do Usuário",
+        "intro": "Quando você envia mapas ou outro conteúdo para o Craftland Hub, você nos concede uma licença não exclusiva, livre de royalties, perpétua e mundial para usar, exibir e distribuir seu conteúdo em conexão com o serviço.",
+        "responsibility": "Você é o único responsável pelo conteúdo que envia e deve garantir que:",
+        "items": [
+          "Você possui ou tem o direito de usar todo o conteúdo que envia",
+          "Seu conteúdo não viola quaisquer leis ou direitos de terceiros",
+          "Seu conteúdo não contém material prejudicial, ofensivo ou inadequado",
+          "Seu conteúdo está em conformidade com nossas diretrizes da comunidade"
+        ]
+      },
+      "prohibited": {
+        "title": "4. Usos Proibidos",
+        "intro": "Você não pode usar o Craftland Hub para qualquer propósito ilegal ou para solicitar a realização de qualquer atividade ilegal. Os usos proibidos incluem, mas não estão limitados a:",
+        "column1": [
+          "Assediar, abusar ou prejudicar outros",
+          "Personificar qualquer pessoa ou entidade",
+          "Carregar código malicioso ou vírus",
+          "Fazer spam ou inundar a plataforma"
+        ],
+        "column2": [
+          "Tentar obter acesso não autorizado",
+          "Violar direitos de propriedade intelectual",
+          "Distribuir conteúdo inadequado",
+          "Envolver-se em atividades fraudulentas"
+        ]
+      },
+      "moderation": {
+        "title": "5. Moderação de Conteúdo",
+        "content": "O Craftland Hub reserva-se o direito de revisar, moderar e remover qualquer conteúdo que viole estes termos ou nossas diretrizes da comunidade. Também podemos suspender ou encerrar contas que se envolvam em atividades proibidas."
+      },
+      "disclaimer": {
+        "title": "6. Isenção de Responsabilidade",
+        "content": "Os materiais no Craftland Hub são fornecidos 'como estão'. O Craftland Hub não oferece garantias, expressas ou implícitas, e por meio deste isenta e nega todas as outras garantias, incluindo, sem limitação, garantias implícitas ou condições de comercialização, adequação a um propósito específico ou não violação de propriedade intelectual ou outra violação de direitos."
+      },
+      "limitations": {
+        "title": "7. Limitações",
+        "content": "Em nenhum caso o Craftland Hub ou seus fornecedores serão responsáveis por quaisquer danos (incluindo, sem limitação, danos por perda de dados ou lucro, ou devido à interrupção de negócios) decorrentes do uso ou incapacidade de usar o Craftland Hub, mesmo que o Craftland Hub ou um representante autorizado do Craftland Hub tenha sido notificado oralmente ou por escrito da possibilidade de tal dano."
+      },
+      "accuracy": {
+        "title": "8. Precisão dos Materiais",
+        "content": "Os materiais que aparecem no Craftland Hub podem incluir erros técnicos, tipográficos ou fotográficos. O Craftland Hub não garante que qualquer um dos materiais em seu site seja preciso, completo ou atual."
+      },
+      "modifications": {
+        "title": "9. Modificações",
+        "content": "O Craftland Hub pode revisar estes termos de serviço a qualquer momento sem aviso prévio. Ao usar o Craftland Hub, você concorda em estar vinculado à versão atual destes termos de serviço."
+      },
+      "governing": {
+        "title": "10. Lei Aplicável",
+        "content": "Estes termos e condições são regidos e interpretados de acordo com as leis da jurisdição aplicável, e você se submete irrevogavelmente à jurisdição exclusiva dos tribunais nesse estado ou localização."
+      },
+      "contact": {
+        "title": "11. Informações de Contato",
+        "content": "Se você tiver alguma dúvida sobre estes Termos de Serviço, entre em contato conosco através de nossos canais da comunidade ou sistema de suporte."
+      }
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Política de Privacidade - Craftland Hub",
+      "description": "Política de Privacidade do Craftland Hub - como coletamos, usamos e protegemos seus dados."
+    },
+    "hero": {
+      "badge": "Privacidade",
+      "title": "Política de",
+      "titleHighlight": "Privacidade",
+      "subtitle": "Sua privacidade é importante para nós. Saiba como protegemos e tratamos seus dados."
+    },
+    "notice": {
+      "title": "Sua Privacidade Está Protegida",
+      "lastUpdated": "Última atualização:"
+    },
+    "sections": {
+      "collection": {
+        "title": "1. Informações Que Coletamos",
+        "intro": "Coletamos informações que você nos fornece diretamente, como quando você cria uma conta, envia mapas ou entra em contato conosco para suporte. Isso pode incluir:",
+        "account": {
+          "title": "Informações da Conta",
+          "items": [
+            "Nome de usuário e endereço de e-mail",
+            "Informações de perfil e avatar",
+            "Preferências da conta"
+          ]
+        },
+        "content": {
+          "title": "Conteúdo e Atividade",
+          "items": [
+            "Mapas e conteúdo que você envia",
+            "Padrões de uso e interações",
+            "Comunicações conosco"
+          ]
+        }
+      },
+      "usage": {
+        "title": "2. Como Usamos Suas Informações",
+        "intro": "Usamos as informações que coletamos para:",
+        "services": {
+          "title": "Fornecer Serviços",
+          "description": "Manter e melhorar nossa plataforma"
+        },
+        "personalization": {
+          "title": "Personalização",
+          "description": "Personalizar sua experiência"
+        },
+        "communication": {
+          "title": "Comunicação",
+          "description": "Enviar atualizações e mensagens de suporte"
+        },
+        "security": {
+          "title": "Segurança",
+          "description": "Proteger contra ameaças"
+        }
+      },
+      "sharing": {
+        "title": "3. Compartilhamento de Informações",
+        "noSell": {
+          "title": "Não Vendemos Seus Dados",
+          "content": "Não vendemos, negociamos ou transferimos suas informações pessoais para terceiros sem o seu consentimento, exceto conforme descrito nesta política."
+        },
+        "intro": "Podemos compartilhar suas informações com:",
+        "providers": "Provedores de Serviços",
+        "providersDesc": "Empresas que nos ajudam a operar",
+        "legal": "Requisitos Legais",
+        "legalDesc": "Quando exigido por lei",
+        "business": "Transferências Comerciais",
+        "businessDesc": "Em caso de aquisição"
+      },
+      "security": {
+        "title": "4. Segurança de Dados",
+        "content": "Implementamos medidas técnicas e organizacionais apropriadas para proteger suas informações pessoais contra acesso não autorizado, alteração, divulgação ou destruição. No entanto, nenhum método de transmissão pela internet é 100% seguro, e não podemos garantir segurança absoluta."
+      },
+      "cookies": {
+        "title": "5. Cookies e Rastreamento",
+        "content": "Usamos cookies e tecnologias semelhantes para melhorar sua experiência em nossa plataforma. Você pode controlar as configurações de cookies através das preferências do seu navegador. Podemos usar serviços de análise para entender como os usuários interagem com nossa plataforma."
+      },
+      "thirdParty": {
+        "title": "6. Serviços de Terceiros",
+        "content": "Nossa plataforma pode conter links para sites de terceiros ou integrar-se com serviços de terceiros (como provedores de autenticação). Não somos responsáveis pelas práticas de privacidade desses terceiros. Encorajamos você a revisar suas políticas de privacidade."
+      },
+      "children": {
+        "title": "7. Privacidade de Crianças",
+        "content": "Nossos serviços não são destinados a crianças menores de 13 anos. Não coletamos intencionalmente informações pessoais de crianças menores de 13 anos. Se tomarmos conhecimento de que coletamos informações pessoais de uma criança menor de 13 anos, tomaremos medidas para excluir tais informações."
+      },
+      "retention": {
+        "title": "8. Retenção de Dados",
+        "content": "Retemos suas informações pessoais pelo tempo necessário para fornecer nossos serviços e cumprir os propósitos descritos nesta política, a menos que um período de retenção mais longo seja exigido por lei. Você pode solicitar a exclusão de sua conta e dados associados a qualquer momento."
+      },
+      "rights": {
+        "title": "9. Seus Direitos",
+        "intro": "Dependendo da sua localização, você pode ter certos direitos em relação às suas informações pessoais:",
+        "access": {
+          "title": "Acesso",
+          "description": "Solicitar acesso aos seus dados"
+        },
+        "correction": {
+          "title": "Correção",
+          "description": "Atualizar informações imprecisas"
+        },
+        "deletion": {
+          "title": "Exclusão",
+          "description": "Solicitar remoção de dados"
+        },
+        "portability": {
+          "title": "Portabilidade",
+          "description": "Exportar seus dados"
+        },
+        "restriction": {
+          "title": "Restrição",
+          "description": "Limitar o processamento"
+        },
+        "objection": {
+          "title": "Objeção",
+          "description": "Objetar ao processamento"
+        }
+      },
+      "international": {
+        "title": "10. Transferências Internacionais de Dados",
+        "content": "Suas informações podem ser transferidas e processadas em países diferentes do seu. Garantimos que salvaguardas apropriadas estejam em vigor para proteger suas informações pessoais durante tais transferências."
+      },
+      "changes": {
+        "title": "11. Alterações a Esta Política",
+        "content": "Podemos atualizar esta Política de Privacidade de tempos em tempos. Notificaremos você sobre quaisquer alterações publicando a nova política nesta página e atualizando a data de \"Última atualização\"."
+      },
+      "contact": {
+        "title": "12. Entre em Contato Conosco",
+        "content": "Se você tiver alguma dúvida sobre esta Política de Privacidade ou nossas práticas de dados, entre em contato conosco através de nossos canais da comunidade ou sistema de suporte."
+      }
+    }
+  },
+  "disclaimer": {
+    "meta": {
+      "title": "Aviso Legal - Craftland Hub",
+      "description": "Aviso legal do Craftland Hub - não afiliado à Garena ou Free Fire."
+    },
+    "hero": {
+      "badge": "Aviso Legal",
+      "title": "Aviso",
+      "titleHighlight": "Legal",
+      "subtitle": "Informações legais importantes sobre o Craftland Hub e nossa relação com o Free Fire"
+    },
+    "warning": {
+      "title": "Aviso Oficial",
+      "content": "Por favor, leia este aviso legal cuidadosamente antes de usar o Craftland Hub. Este documento esclarece nossa relação com a Garena, Free Fire e Craftland."
+    },
+    "sections": {
+      "affiliation": {
+        "title": "1. Nenhuma Afiliação com a Garena",
+        "badge": {
+          "title": "Plataforma Independente",
+          "content": "O Craftland Hub NÃO é afiliado, endossado ou conectado à Garena, Free Fire ou qualquer uma de suas subsidiárias ou afiliadas."
+        },
+        "content": "Esta é uma plataforma independente, feita por fãs, criada por membros da comunidade Free Fire. Não somos autorizados, aprovados ou patrocinados pela Garena de forma alguma. Todas as marcas comerciais, marcas de serviço, nomes comerciais e logotipos que aparecem nesta plataforma são propriedade de seus respectivos proprietários e são usados apenas para fins informativos."
+      },
+      "trademarks": {
+        "title": "2. Direitos de Marca Registrada",
+        "garena": {
+          "title": "Marcas da Garena",
+          "items": [
+            "\"Free Fire\"",
+            "\"Craftland\"",
+            "\"Garena\"",
+            "Todos os logotipos e marcas relacionados"
+          ]
+        },
+        "usage": {
+          "title": "Nosso Uso",
+          "items": [
+            "Puramente descritivo",
+            "Apenas para fins de identificação",
+            "Nenhuma propriedade reivindicada",
+            "Princípios de uso justo"
+          ]
+        },
+        "content": "\"Free Fire\", \"Craftland\", \"Garena\" e todas as marcas comerciais, marcas de serviço, nomes comerciais e logotipos relacionados são marcas comerciais ou marcas registradas da Garena e seus licenciadores. Todos os direitos são reservados por seus respectivos proprietários."
+      },
+      "fanMade": {
+        "title": "3. Plataforma Feita por Fãs",
+        "intro": "Esta plataforma é criada e mantida por fãs do Free Fire para a comunidade Free Fire. Fornecemos um espaço para os jogadores descobrirem, compartilharem e discutirem mapas personalizados do Craftland criados pela comunidade.",
+        "content": "Todo o conteúdo desta plataforma, incluindo mapas, descrições e conteúdo gerado pelo usuário, é criado por usuários individuais e membros da comunidade. Não criamos nem possuímos os jogos, mapas ou qualquer propriedade intelectual associada ao Free Fire ou Craftland."
+      },
+      "responsibility": {
+        "title": "4. Responsabilidade pelo Conteúdo",
+        "intro": "Os usuários são os únicos responsáveis pelo conteúdo que enviam ao Craftland Hub. Não endossamos, garantimos ou assumimos responsabilidade pela precisão, qualidade, legalidade ou segurança de qualquer conteúdo gerado pelo usuário.",
+        "content": "Embora nos esforcemos para manter uma comunidade segura e respeitosa, não podemos garantir que todo o conteúdo atenda aos nossos padrões ou esteja em conformidade com as leis aplicáveis."
+      },
+      "support": {
+        "title": "5. Nenhum Suporte Oficial",
+        "intro": "O Craftland Hub não é um serviço oficial do Free Fire ou da Garena. Não podemos fornecer suporte oficial, assistência técnica ou atendimento ao cliente para Free Fire, Craftland ou quaisquer produtos da Garena.",
+        "official": {
+          "title": "Suporte Oficial",
+          "content": "Para suporte oficial, entre em contato diretamente com a Garena através de seus canais oficiais e sistemas de suporte."
+        }
+      },
+      "availability": {
+        "title": "6. Disponibilidade do Serviço",
+        "intro": "Esta plataforma é fornecida \"como está\" sem quaisquer garantias. Reservamo-nos o direito de modificar, suspender ou descontinuar o serviço a qualquer momento sem aviso prévio.",
+        "content": "Não somos responsáveis por quaisquer danos, perdas ou problemas que possam surgir do uso desta plataforma ou da confiança em qualquer informação aqui fornecida."
+      },
+      "guidelines": {
+        "title": "7. Diretrizes da Comunidade",
+        "content": "Todos os usuários devem cumprir nossas diretrizes da comunidade e termos de serviço. Mantemos o direito de moderar conteúdo, suspender contas e tomar medidas apropriadas contra usuários que violem nossas regras ou se envolvam em comportamento prejudicial."
+      },
+      "compliance": {
+        "title": "8. Conformidade Legal",
+        "intro": "Os usuários são responsáveis por garantir que seu uso desta plataforma esteja em conformidade com todas as leis e regulamentos locais, nacionais e internacionais aplicáveis.",
+        "content": "Isso inclui, mas não se limita a, leis de direitos autorais, direitos de propriedade intelectual e quaisquer restrições sobre conteúdo relacionado a jogos em sua jurisdição."
+      },
+      "contact": {
+        "title": "9. Informações de Contato",
+        "intro": "Se você tiver dúvidas sobre este aviso legal ou precisar relatar conteúdo que possa violar leis ou nossas diretrizes, entre em contato conosco através de nossos canais da comunidade.",
+        "official": {
+          "title": "Contato Oficial da Garena",
+          "content": "Para suporte oficial da Garena ou consultas legais relacionadas ao Free Fire ou Craftland, entre em contato diretamente com a Garena através de seu site oficial e canais de suporte."
+        }
+      },
+      "acknowledgment": {
+        "title": "10. Reconhecimento",
+        "content": "Ao usar o Craftland Hub, você reconhece que leu, entendeu e concorda em estar vinculado a este aviso legal. Se você não concordar com qualquer parte deste aviso legal, por favor não use esta plataforma.",
+        "lastUpdated": "Este aviso legal foi atualizado pela última vez em"
+      }
+    }
+  },
+  "metadata": {
+    "title": "Craftland Hub - Descubra Mapas Personalizados Incríveis do Free Fire",
+    "description": "Navegue, envie e avalie mapas personalizados do Craftland para Free Fire. Junte-se à comunidade e descubra mapas incríveis criados por jogadores de todo o mundo.",
+    "keywords": "Free Fire, Craftland, mapas personalizados, mapas Free Fire, Craftland Hub, comunidade de jogos",
+    "ogTitle": "Craftland Hub - Sua Comunidade Definitiva de Mapas do Free Fire",
+    "ogDescription": "Descubra, envie e avalie mapas personalizados do Craftland para Free Fire. Junte-se a milhares de jogadores compartilhando mapas personalizados incríveis.",
+    "twitterTitle": "Craftland Hub - Mapas Personalizados do Free Fire",
+    "twitterDescription": "Navegue e compartilhe mapas personalizados do Craftland para Free Fire. Junte-se à comunidade hoje!"
+  }
+}

@@ -1,0 +1,602 @@
+{
+  "common": {
+    "appName": "Craftland Hub",
+    "loading": "Memuat...",
+    "error": "Terjadi kesalahan",
+    "submit": "Kirim",
+    "cancel": "Batal",
+    "save": "Simpan",
+    "delete": "Hapus",
+    "edit": "Edit",
+    "search": "Cari",
+    "searchPlaceholder": "Cari berdasarkan nama, pembuat, atau kode...",
+    "searchPlaceholderShort": "Cari...",
+    "filter": "Filter",
+    "sort": "Urutkan",
+    "close": "Tutup",
+    "back": "Kembali",
+    "next": "Berikutnya",
+    "previous": "Sebelumnya",
+    "viewMore": "Lihat Lebih Banyak",
+    "noResults": "Tidak ada hasil ditemukan",
+    "mapsCount": "{count, plural, =0 {tidak ada peta} other {# peta}}",
+    "playersCount": "{count, plural, =0 {tidak ada pemain} other {# pemain}}",
+    "minutesCount": "{count, plural, =0 {tidak ada menit} other {# menit}}"
+  },
+  "navigation": {
+    "home": "Beranda",
+    "browse": "Jelajahi",
+    "submit": "Kirim Peta",
+    "categories": "Kategori",
+    "about": "Tentang",
+    "terms": "Ketentuan Layanan",
+    "privacy": "Kebijakan Privasi",
+    "disclaimer": "Penyangkalan",
+    "contact": "Kontak"
+  },
+  "home": {
+    "title": "Temukan Peta Craftland yang Menakjubkan",
+    "subtitle": "Jelajahi, kirim, dan beri nilai peta kustom untuk Free Fire",
+    "trending": "Peta Trending",
+    "topRated": "Paling Populer",
+    "recentlyAdded": "Baru Ditambahkan",
+    "mostViewed": "Paling Banyak Dilihat",
+    "categories": "Kategori",
+    "exploreAll": "Jelajahi Semua Peta",
+    "noMaps": "Belum ada peta tersedia"
+  },
+  "submit": {
+    "title": "Kirim Peta Baru",
+    "subtitle": "Bagikan kreasi Craftland Anda yang menakjubkan dengan komunitas.",
+    "mapCode": "Kode Peta",
+    "mapCodePlaceholder": "#FREEFIRE123456",
+    "mapCodeDescription": "Kode unik untuk peta Craftland Anda. Sertakan awalan # atau akan ditambahkan secara otomatis.",
+    "mapCodeRequired": "Kode peta wajib diisi.",
+    "region": "Wilayah",
+    "regionPlaceholder": "Pilih wilayah peta",
+    "regionDescription": "Ini membantu pemain menemukan peta yang tersedia di wilayah mereka.",
+    "regionRequired": "Wilayah wajib diisi.",
+    "regions": {
+      "IND": "India (IND)",
+      "BR": "Brasil (BR)",
+      "US": "Amerika Serikat (US)",
+      "EU": "Eropa (EU)",
+      "SEA": "Asia Tenggara (SEA)",
+      "MENA": "Timur Tengah & Afrika Utara (MENA)",
+      "other": "Lainnya"
+    },
+    "tags": "Tag / Kategori",
+    "tagsPlaceholder": "contoh: Parkour, Fun, 1v1",
+    "tagsDescription": "Tag yang dipisahkan koma untuk membantu orang lain menemukan peta Anda. AI akan menyarankan tag tambahan.",
+    "notes": "Catatan (Opsional)",
+    "notesPlaceholder": "contoh: Terbaik dimainkan dengan teman, memerlukan kerja sama tim",
+    "notesDescription": "Tambahkan catatan atau tips tambahan tentang peta ini untuk pemain lain.",
+    "fetchButton": "Ambil & Pratinjau Peta",
+    "fetchingButton": "Mengambil Data Peta...",
+    "submitButton": "Kirim ke Komunitas",
+    "submittingButton": "Mengirim ke Komunitas...",
+    "mapPreview": "Pratinjau Peta",
+    "fetchedSuccessfully": "Berhasil Diambil",
+    "teamSize": "Ukuran Tim:",
+    "playTime": "Waktu Bermain:",
+    "subscribers": "Pelanggan:",
+    "likes": "Suka:",
+    "description": "Deskripsi",
+    "players": "pemain",
+    "min": "mnt",
+    "by": "Oleh",
+    "toast": {
+      "fetchSuccess": "Data Peta Berhasil Diambil!",
+      "fetchSuccessDescription": "Ditemukan: {mapName} oleh {authorName}",
+      "fetchError": "Peta Tidak Ditemukan",
+      "fetchErrorDescription": "Tidak dapat mengambil data peta. Silakan periksa kode dan wilayah.",
+      "fetchFailed": "Kesalahan",
+      "fetchFailedDescription": "Gagal mengambil data peta. Silakan coba lagi.",
+      "submitNoData": "Kesalahan",
+      "submitNoDataDescription": "Tidak ada data peta yang tersedia untuk dikirim. Silakan ambil data peta terlebih dahulu.",
+      "submitSuccess": "Berhasil!",
+      "submitSuccessDescription": "Peta berhasil dikirim ke komunitas!",
+      "submitFailed": "Pengiriman Gagal",
+      "submitFailedDescription": "Gagal mengirim peta ke komunitas.",
+      "submitError": "Kesalahan",
+      "submitErrorDescription": "Gagal mengirim peta. Silakan coba lagi."
+    }
+  },
+  "mapCard": {
+    "views": "{count, plural, =0 {tidak ada tampilan} other {# tampilan}}",
+    "votes": "{count, plural, =0 {tidak ada suara} other {# suara}}",
+    "likes": "{count, plural, =0 {tidak ada suka} other {# suka}}",
+    "playTime": "Waktu Bermain",
+    "minutes": "mnt",
+    "teams": "tim",
+    "author": "oleh",
+    "category": "Kategori",
+    "rating": "Rating",
+    "playNow": "Main Sekarang",
+    "viewDetails": "Lihat Detail",
+    "share": "Bagikan",
+    "addedAgo": "Ditambahkan {time}",
+    "authRequired": "Otentikasi Diperlukan",
+    "authRequiredDesc": "Silakan masuk untuk memberikan suara pada peta",
+    "voteSuccess": "Suara Dicatat",
+    "upvoted": "Peta berhasil diberi suara positif",
+    "downvoted": "Peta berhasil diberi suara negatif",
+    "voteError": "Kesalahan Suara",
+    "voteErrorDesc": "Suara Anda tidak dapat dicatat. Silakan coba lagi."
+  },
+  "auth": {
+    "signIn": "Masuk",
+    "signOut": "Keluar",
+    "signInWithGoogle": "Masuk dengan Google",
+    "signInAnonymously": "Lanjutkan sebagai Tamu",
+    "profile": "Profil",
+    "mySubmissions": "Kiriman Saya",
+    "welcome": "Selamat Datang",
+    "signInRequired": "Silakan masuk untuk melanjutkan",
+    "signInRequiredToSubmit": "Masuk diperlukan untuk mengirim peta",
+    "signInRequiredDescription": "Anda perlu masuk dengan Google untuk mengirim peta ke komunitas. Ini membantu kami menjaga kualitas dan mencegah spam.",
+    "signInSuccess": "Berhasil masuk",
+    "signOutSuccess": "Berhasil keluar"
+  },
+  "profile": {
+    "signOut": "Keluar",
+    "mySubmissions": "Kiriman Saya",
+    "myVotes": "Suara Saya",
+    "submittedMaps": "Peta yang Dikirim",
+    "submittedMapsDescription": "Peta yang telah Anda kirim ke komunitas",
+    "votedMaps": "Peta yang Dipilih",
+    "votedMapsDescription": "Peta yang telah Anda pilih",
+    "noSubmissions": "Anda belum mengirim peta apapun",
+    "submitFirstMap": "Kirim Peta Pertama Anda",
+    "noVotes": "Anda belum memilih peta apapun",
+    "exploreMaps": "Jelajahi Peta"
+  },
+  "mapDetail": {
+    "backToHome": "Kembali ke Beranda",
+    "by": "oleh",
+    "views": "Tampilan",
+    "likes": "Suka",
+    "votes": "Suara",
+    "subscribers": "Pelanggan",
+    "mapCode": "Kode Peta",
+    "copy": "Salin",
+    "details": "Detail",
+    "description": "Deskripsi",
+    "category": "Kategori",
+    "gameMode": "Mode Permainan",
+    "teamSize": "Ukuran Tim",
+    "playTime": "Waktu Bermain",
+    "difficulty": "Kesulitan",
+    "region": "Wilayah",
+    "submittedBy": "Dikirim Oleh",
+    "submittedOn": "Dikirim Pada",
+    "tags": "Tag",
+    "submitterNotes": "Catatan Pengirim",
+    "openInGame": "Buka di Game",
+    "moreLikeThis": "Lebih Seperti Ini"
+  },
+  "category": {
+    "backToHome": "Kembali ke Beranda",
+    "mapsFound": "{count, plural, =0 {Tidak ada peta ditemukan} one {# peta ditemukan} other {# peta ditemukan}}",
+    "noMaps": "Belum ada peta dalam kategori ini",
+    "noMapsDescription": "Jadilah yang pertama mengirim peta dalam kategori ini!",
+    "submitFirst": "Kirim Peta Pertama"
+  },
+  "search": {
+    "title": "Cari Peta",
+    "subtitle": "Temukan peta berdasarkan kode, nama pembuat, atau pengirim",
+    "placeholder": "Cari berdasarkan kode, pembuat, atau nama pengirim...",
+    "searchButton": "Cari",
+    "searchHint": "Coba cari:",
+    "backToHome": "Kembali ke Beranda",
+    "resultsCount": "{count, plural, =0 {Tidak ada hasil} one {# hasil} other {# hasil}} untuk \"{query}\"",
+    "noResults": "Tidak ada peta ditemukan",
+    "noResultsDescription": "Kami tidak dapat menemukan peta yang cocok dengan pencarian Anda.",
+    "trySearching": "Coba cari:",
+    "searchTip1": "Kode peta (mis., #123456)",
+    "searchTip2": "Nama pembuat",
+    "searchTip3": "Nama pengirim atau kata kunci"
+  },
+  "footer": {
+    "description": "Temukan, kirim, dan beri nilai peta kustom Craftland untuk Free Fire.",
+    "quickLinks": "Tautan Cepat",
+    "community": "Komunitas",
+    "support": "Dukungan",
+    "legal": "Legal",
+    "followUs": "Ikuti Kami",
+    "topContributors": "Kontributor Teratas",
+    "guidelines": "Pedoman",
+    "reportIssue": "Laporkan Masalah",
+    "officialCraftland": "Web Resmi Craftland",
+    "creatorProgram": "Program Kreator Craftland",
+    "copyright": "© 2024 Craftland Hub. Hak cipta dilindungi.",
+    "madeWith": "Dibuat dengan",
+    "forCommunity": "untuk komunitas Free Fire",
+    "disclaimer": "Proyek penggemar independen • Tidak berafiliasi dengan Garena atau Free Fire"
+  },
+  "about": {
+    "meta": {
+      "title": "Tentang - Craftland Hub",
+      "description": "Pelajari tentang Craftland Hub, platform berbasis komunitas untuk peta kustom Free Fire."
+    },
+    "hero": {
+      "badge": "Berbasis Komunitas",
+      "title": "Tentang",
+      "titleHighlight": "Craftland Hub",
+      "subtitle": "Destinasi utama Anda untuk menemukan, berbagi, dan memberi nilai peta kustom Craftland untuk komunitas Free Fire. Dibuat oleh pemain, untuk pemain."
+    },
+    "mission": {
+      "badge": "Misi Kami",
+      "title": "Memberdayakan Komunitas Craftland",
+      "paragraph1": "Craftland Hub diciptakan untuk memupuk komunitas pembuat peta dan pemain yang dinamis dalam ekosistem Free Fire. Kami percaya bahwa peta kustom adalah jantung dari apa yang membuat Craftland istimewa, dan platform kami berfungsi sebagai jembatan antara pembuat berbakat dan pemain yang antusias.",
+      "paragraph2": "Tujuan kami adalah menyediakan ruang yang aman, terorganisir, dan menarik di mana komunitas dapat menemukan pengalaman baru, berbagi kreasi mereka, dan membangun koneksi yang langgeng melalui kecintaan bersama terhadap peta kustom Craftland.",
+      "stats": {
+        "maps": "Segera Hadir",
+        "mapsLabel": "Peta Kustom",
+        "members": "Berkembang",
+        "membersLabel": "Anggota Komunitas",
+        "categories": "Beragam",
+        "categoriesLabel": "Kategori",
+        "support": "24/7",
+        "supportLabel": "Dukungan Komunitas"
+      }
+    },
+    "features": {
+      "badge": "Yang Kami Tawarkan",
+      "title": "Semua yang Anda Butuhkan",
+      "subtitle": "Temukan fitur-fitur yang menjadikan Craftland Hub platform pilihan untuk penggemar peta kustom",
+      "discovery": {
+        "title": "Penemuan Peta",
+        "description": "Jelajahi ribuan peta buatan pengguna di berbagai kategori, dari pertempuran penuh aksi hingga tantangan kreatif. Temukan peta favorit Anda berikutnya dengan mudah."
+      },
+      "community": {
+        "title": "Berbasis Komunitas",
+        "description": "Bergabunglah dengan komunitas pembuat dan pemain yang berkembang. Bagikan peta Anda, beri nilai peta lain, dan terhubung dengan sesama penggemar yang berbagi passion Anda."
+      },
+      "quality": {
+        "title": "Jaminan Kualitas",
+        "description": "Setiap peta melalui sistem ulasan dan penilaian komunitas untuk memastikan kualitas dan permainan yang adil untuk semua pengguna. Percayai penilaian komunitas kami."
+      }
+    },
+    "stats": {
+      "title": "Berkembang Bersama",
+      "subtitle": "Komunitas kami semakin kuat setiap hari, menciptakan pengalaman menakjubkan untuk pemain Free Fire di seluruh dunia",
+      "rating": "Segera Hadir",
+      "ratingLabel": "Rating Rata-rata",
+      "satisfaction": "Berkembang",
+      "satisfactionLabel": "Tingkat Kepuasan",
+      "response": "Cepat",
+      "responseLabel": "Waktu Respons Rata-rata",
+      "creators": "Aktif",
+      "creatorsLabel": "Pembuat Komunitas"
+    },
+    "cta": {
+      "badge": "Bergabunglah dengan Komunitas Kami",
+      "title": "Siap Memulai Perjalanan Anda?",
+      "subtitle": "Baik Anda pembuat peta berpengalaman atau baru menemukan dunia peta kustom Craftland, ada tempat untuk Anda di komunitas kami. Mulai jelajahi, buat, dan terhubung hari ini!",
+      "submitButton": "Kirim Peta Anda",
+      "browseButton": "Jelajahi Peta"
+    }
+  },
+  "terms": {
+    "meta": {
+      "title": "Ketentuan Layanan - Craftland Hub",
+      "description": "Ketentuan Layanan dan pedoman penggunaan untuk Craftland Hub."
+    },
+    "hero": {
+      "badge": "Legal",
+      "title": "Ketentuan",
+      "titleHighlight": "Layanan",
+      "subtitle": "Harap baca ketentuan ini dengan seksama sebelum menggunakan Craftland Hub"
+    },
+    "notice": {
+      "title": "Pemberitahuan Penting",
+      "lastUpdated": "Terakhir diperbarui:"
+    },
+    "sections": {
+      "acceptance": {
+        "title": "1. Penerimaan Ketentuan",
+        "content": "Dengan mengakses dan menggunakan Craftland Hub, Anda menerima dan setuju untuk terikat oleh ketentuan dan ketentuan perjanjian ini. Jika Anda tidak setuju untuk mematuhi hal di atas, harap jangan gunakan layanan ini."
+      },
+      "license": {
+        "title": "2. Lisensi Penggunaan",
+        "intro": "Izin diberikan untuk mengakses sementara materi (informasi atau perangkat lunak) di Craftland Hub hanya untuk tampilan pribadi, non-komersial sementara. Ini adalah pemberian lisensi, bukan transfer kepemilikan, dan di bawah lisensi ini Anda tidak boleh:",
+        "items": [
+          "memodifikasi atau menyalin materi",
+          "menggunakan materi untuk tujuan komersial atau tampilan publik apa pun",
+          "mencoba untuk mendekompilasi atau merekayasa balik perangkat lunak apa pun yang terdapat di Craftland Hub",
+          "menghapus hak cipta atau notasi kepemilikan lainnya dari materi"
+        ]
+      },
+      "userContent": {
+        "title": "3. Konten Pengguna",
+        "intro": "Ketika Anda mengirimkan peta atau konten lain ke Craftland Hub, Anda memberikan kami lisensi non-eksklusif, bebas royalti, abadi, dan di seluruh dunia untuk menggunakan, menampilkan, dan mendistribusikan konten Anda sehubungan dengan layanan.",
+        "responsibility": "Anda sepenuhnya bertanggung jawab atas konten yang Anda kirimkan dan harus memastikan bahwa:",
+        "items": [
+          "Anda memiliki atau memiliki hak untuk menggunakan semua konten yang Anda kirimkan",
+          "Konten Anda tidak melanggar hukum atau hak pihak ketiga",
+          "Konten Anda tidak mengandung materi yang berbahaya, menyinggung, atau tidak pantas",
+          "Konten Anda mematuhi pedoman komunitas kami"
+        ]
+      },
+      "prohibited": {
+        "title": "4. Penggunaan yang Dilarang",
+        "intro": "Anda tidak boleh menggunakan Craftland Hub untuk tujuan yang melanggar hukum atau untuk meminta pelaksanaan aktivitas ilegal apa pun. Penggunaan yang dilarang termasuk, tetapi tidak terbatas pada:",
+        "column1": [
+          "Melecehkan, menyalahgunakan, atau merugikan orang lain",
+          "Menyamar sebagai orang atau entitas mana pun",
+          "Mengunggah kode atau virus berbahaya",
+          "Spam atau membanjiri platform"
+        ],
+        "column2": [
+          "Mencoba mendapatkan akses tidak sah",
+          "Melanggar hak kekayaan intelektual",
+          "Mendistribusikan konten yang tidak pantas",
+          "Terlibat dalam aktivitas penipuan"
+        ]
+      },
+      "moderation": {
+        "title": "5. Moderasi Konten",
+        "content": "Craftland Hub berhak untuk meninjau, memoderasi, dan menghapus konten apa pun yang melanggar ketentuan ini atau pedoman komunitas kami. Kami juga dapat menangguhkan atau menghentikan akun yang terlibat dalam aktivitas yang dilarang."
+      },
+      "disclaimer": {
+        "title": "6. Penyangkalan",
+        "content": "Materi di Craftland Hub disediakan 'sebagaimana adanya'. Craftland Hub tidak memberikan jaminan, tersurat atau tersirat, dan dengan ini menyangkal dan meniadakan semua jaminan lain termasuk tanpa batasan, jaminan atau kondisi tersirat tentang kelayakan untuk diperdagangkan, kesesuaian untuk tujuan tertentu, atau tidak adanya pelanggaran kekayaan intelektual atau pelanggaran hak lainnya."
+      },
+      "limitations": {
+        "title": "7. Batasan",
+        "content": "Dalam keadaan apa pun Craftland Hub atau pemasoknya tidak bertanggung jawab atas kerusakan apa pun (termasuk, tanpa batasan, kerusakan karena kehilangan data atau keuntungan, atau karena gangguan bisnis) yang timbul dari penggunaan atau ketidakmampuan untuk menggunakan Craftland Hub, bahkan jika Craftland Hub atau perwakilan resmi Craftland Hub telah diberitahu secara lisan atau tertulis tentang kemungkinan kerusakan tersebut."
+      },
+      "accuracy": {
+        "title": "8. Akurasi Materi",
+        "content": "Materi yang muncul di Craftland Hub dapat mencakup kesalahan teknis, tipografi, atau fotografi. Craftland Hub tidak menjamin bahwa materi apa pun di situs webnya akurat, lengkap, atau terkini."
+      },
+      "modifications": {
+        "title": "9. Modifikasi",
+        "content": "Craftland Hub dapat merevisi ketentuan layanan ini kapan saja tanpa pemberitahuan. Dengan menggunakan Craftland Hub, Anda setuju untuk terikat oleh versi ketentuan layanan yang berlaku saat itu."
+      },
+      "governing": {
+        "title": "10. Hukum yang Mengatur",
+        "content": "Syarat dan ketentuan ini diatur oleh dan ditafsirkan sesuai dengan hukum yurisdiksi yang berlaku, dan Anda secara tidak dapat dibatalkan tunduk pada yurisdiksi eksklusif pengadilan di negara bagian atau lokasi tersebut."
+      },
+      "contact": {
+        "title": "11. Informasi Kontak",
+        "content": "Jika Anda memiliki pertanyaan tentang Ketentuan Layanan ini, silakan hubungi kami melalui saluran komunitas atau sistem dukungan kami."
+      }
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Kebijakan Privasi - Craftland Hub",
+      "description": "Kebijakan Privasi untuk Craftland Hub - bagaimana kami mengumpulkan, menggunakan, dan melindungi data Anda."
+    },
+    "hero": {
+      "badge": "Privasi",
+      "title": "Kebijakan",
+      "titleHighlight": "Privasi",
+      "subtitle": "Privasi Anda penting bagi kami. Pelajari bagaimana kami melindungi dan menangani data Anda."
+    },
+    "notice": {
+      "title": "Privasi Anda Dilindungi",
+      "lastUpdated": "Terakhir diperbarui:"
+    },
+    "sections": {
+      "collection": {
+        "title": "1. Informasi yang Kami Kumpulkan",
+        "intro": "Kami mengumpulkan informasi yang Anda berikan langsung kepada kami, seperti saat Anda membuat akun, mengirimkan peta, atau menghubungi kami untuk dukungan. Ini mungkin termasuk:",
+        "account": {
+          "title": "Informasi Akun",
+          "items": [
+            "Nama pengguna dan alamat email",
+            "Informasi profil dan avatar",
+            "Preferensi akun"
+          ]
+        },
+        "content": {
+          "title": "Konten & Aktivitas",
+          "items": [
+            "Peta dan konten yang Anda kirimkan",
+            "Pola penggunaan dan interaksi",
+            "Komunikasi dengan kami"
+          ]
+        }
+      },
+      "usage": {
+        "title": "2. Bagaimana Kami Menggunakan Informasi Anda",
+        "intro": "Kami menggunakan informasi yang kami kumpulkan untuk:",
+        "services": {
+          "title": "Menyediakan Layanan",
+          "description": "Memelihara dan meningkatkan platform kami"
+        },
+        "personalization": {
+          "title": "Personalisasi",
+          "description": "Menyesuaikan pengalaman Anda"
+        },
+        "communication": {
+          "title": "Komunikasi",
+          "description": "Mengirim pembaruan dan pesan dukungan"
+        },
+        "security": {
+          "title": "Keamanan",
+          "description": "Melindungi dari ancaman"
+        }
+      },
+      "sharing": {
+        "title": "3. Berbagi Informasi",
+        "noSell": {
+          "title": "Kami Tidak Menjual Data Anda",
+          "content": "Kami tidak menjual, memperdagangkan, atau mentransfer informasi pribadi Anda kepada pihak ketiga tanpa persetujuan Anda, kecuali sebagaimana dijelaskan dalam kebijakan ini."
+        },
+        "intro": "Kami dapat membagikan informasi Anda dengan:",
+        "providers": "Penyedia Layanan",
+        "providersDesc": "Perusahaan yang membantu kami beroperasi",
+        "legal": "Persyaratan Hukum",
+        "legalDesc": "Ketika diwajibkan oleh hukum",
+        "business": "Transfer Bisnis",
+        "businessDesc": "Dalam kasus akuisisi"
+      },
+      "security": {
+        "title": "4. Keamanan Data",
+        "content": "Kami menerapkan langkah-langkah teknis dan organisasi yang sesuai untuk melindungi informasi pribadi Anda dari akses, perubahan, pengungkapan, atau penghancuran yang tidak sah. Namun, tidak ada metode transmisi melalui internet yang 100% aman, dan kami tidak dapat menjamin keamanan absolut."
+      },
+      "cookies": {
+        "title": "5. Cookie dan Pelacakan",
+        "content": "Kami menggunakan cookie dan teknologi serupa untuk meningkatkan pengalaman Anda di platform kami. Anda dapat mengontrol pengaturan cookie melalui preferensi browser Anda. Kami dapat menggunakan layanan analitik untuk memahami bagaimana pengguna berinteraksi dengan platform kami."
+      },
+      "thirdParty": {
+        "title": "6. Layanan Pihak Ketiga",
+        "content": "Platform kami mungkin berisi tautan ke situs web pihak ketiga atau terintegrasi dengan layanan pihak ketiga (seperti penyedia autentikasi). Kami tidak bertanggung jawab atas praktik privasi pihak ketiga ini. Kami mendorong Anda untuk meninjau kebijakan privasi mereka."
+      },
+      "children": {
+        "title": "7. Privasi Anak-anak",
+        "content": "Layanan kami tidak ditujukan untuk anak-anak di bawah usia 13 tahun. Kami tidak dengan sengaja mengumpulkan informasi pribadi dari anak-anak di bawah 13 tahun. Jika kami mengetahui bahwa kami telah mengumpulkan informasi pribadi dari anak di bawah 13 tahun, kami akan mengambil langkah untuk menghapus informasi tersebut."
+      },
+      "retention": {
+        "title": "8. Penyimpanan Data",
+        "content": "Kami menyimpan informasi pribadi Anda selama diperlukan untuk menyediakan layanan kami dan memenuhi tujuan yang diuraikan dalam kebijakan ini, kecuali periode penyimpanan yang lebih lama diperlukan oleh hukum. Anda dapat meminta penghapusan akun dan data terkait Anda kapan saja."
+      },
+      "rights": {
+        "title": "9. Hak Anda",
+        "intro": "Tergantung pada lokasi Anda, Anda mungkin memiliki hak tertentu terkait informasi pribadi Anda:",
+        "access": {
+          "title": "Akses",
+          "description": "Minta akses ke data Anda"
+        },
+        "correction": {
+          "title": "Koreksi",
+          "description": "Perbarui informasi yang tidak akurat"
+        },
+        "deletion": {
+          "title": "Penghapusan",
+          "description": "Minta penghapusan data"
+        },
+        "portability": {
+          "title": "Portabilitas",
+          "description": "Ekspor data Anda"
+        },
+        "restriction": {
+          "title": "Pembatasan",
+          "description": "Batasi pemrosesan"
+        },
+        "objection": {
+          "title": "Keberatan",
+          "description": "Keberatan terhadap pemrosesan"
+        }
+      },
+      "international": {
+        "title": "10. Transfer Data Internasional",
+        "content": "Informasi Anda dapat ditransfer ke dan diproses di negara selain negara Anda sendiri. Kami memastikan perlindungan yang sesuai tersedia untuk melindungi informasi pribadi Anda selama transfer tersebut."
+      },
+      "changes": {
+        "title": "11. Perubahan pada Kebijakan Ini",
+        "content": "Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Kami akan memberi tahu Anda tentang perubahan apa pun dengan memposting kebijakan baru di halaman ini dan memperbarui tanggal \"Terakhir diperbarui\"."
+      },
+      "contact": {
+        "title": "12. Hubungi Kami",
+        "content": "Jika Anda memiliki pertanyaan tentang Kebijakan Privasi ini atau praktik data kami, silakan hubungi kami melalui saluran komunitas atau sistem dukungan kami."
+      }
+    }
+  },
+  "disclaimer": {
+    "meta": {
+      "title": "Penyangkalan - Craftland Hub",
+      "description": "Penyangkalan hukum untuk Craftland Hub - tidak berafiliasi dengan Garena atau Free Fire."
+    },
+    "hero": {
+      "badge": "Pemberitahuan Hukum",
+      "title": "Penyangkalan",
+      "titleHighlight": "Hukum",
+      "subtitle": "Informasi hukum penting tentang Craftland Hub dan hubungan kami dengan Free Fire"
+    },
+    "warning": {
+      "title": "Penyangkalan Resmi",
+      "content": "Harap baca penyangkalan ini dengan seksama sebelum menggunakan Craftland Hub. Dokumen ini menjelaskan hubungan kami dengan Garena, Free Fire, dan Craftland."
+    },
+    "sections": {
+      "affiliation": {
+        "title": "1. Tidak Ada Afiliasi dengan Garena",
+        "badge": {
+          "title": "Platform Independen",
+          "content": "Craftland Hub TIDAK berafiliasi dengan, didukung oleh, atau terhubung dengan Garena, Free Fire, atau anak perusahaan atau afiliasi mereka."
+        },
+        "content": "Ini adalah platform independen buatan penggemar yang dibuat oleh anggota komunitas Free Fire. Kami tidak diotorisasi, disetujui, atau disponsori oleh Garena dengan cara apa pun. Semua merek dagang, merek layanan, nama dagang, dan logo yang muncul di platform ini adalah milik pemiliknya masing-masing dan digunakan hanya untuk tujuan informasi."
+      },
+      "trademarks": {
+        "title": "2. Hak Merek Dagang",
+        "garena": {
+          "title": "Merek Dagang Garena",
+          "items": [
+            "\"Free Fire\"",
+            "\"Craftland\"",
+            "\"Garena\"",
+            "Semua logo dan merek terkait"
+          ]
+        },
+        "usage": {
+          "title": "Penggunaan Kami",
+          "items": [
+            "Murni deskriptif",
+            "Hanya untuk tujuan identifikasi",
+            "Tidak ada kepemilikan yang diklaim",
+            "Prinsip penggunaan wajar"
+          ]
+        },
+        "content": "\"Free Fire\", \"Craftland\", \"Garena\", dan semua merek dagang, merek layanan, nama dagang, dan logo terkait adalah merek dagang atau merek dagang terdaftar dari Garena dan pemberi lisensinya. Semua hak dilindungi oleh pemiliknya masing-masing."
+      },
+      "fanMade": {
+        "title": "3. Platform Buatan Penggemar",
+        "intro": "Platform ini dibuat dan dipelihara oleh penggemar Free Fire untuk komunitas Free Fire. Kami menyediakan ruang bagi pemain untuk menemukan, berbagi, dan mendiskusikan peta kustom Craftland yang dibuat oleh komunitas.",
+        "content": "Semua konten di platform ini, termasuk peta, deskripsi, dan konten buatan pengguna, dibuat oleh pengguna individu dan anggota komunitas. Kami tidak membuat atau memiliki game, peta, atau kekayaan intelektual apa pun yang terkait dengan Free Fire atau Craftland."
+      },
+      "responsibility": {
+        "title": "4. Tanggung Jawab Konten",
+        "intro": "Pengguna sepenuhnya bertanggung jawab atas konten yang mereka kirimkan ke Craftland Hub. Kami tidak mendukung, menjamin, atau bertanggung jawab atas akurasi, kualitas, legalitas, atau keamanan konten buatan pengguna.",
+        "content": "Meskipun kami berusaha untuk mempertahankan komunitas yang aman dan penuh hormat, kami tidak dapat menjamin bahwa semua konten memenuhi standar kami atau mematuhi hukum yang berlaku."
+      },
+      "support": {
+        "title": "5. Tidak Ada Dukungan Resmi",
+        "intro": "Craftland Hub bukan layanan resmi Free Fire atau Garena. Kami tidak dapat memberikan dukungan resmi, bantuan teknis, atau layanan pelanggan untuk Free Fire, Craftland, atau produk Garena apa pun.",
+        "official": {
+          "title": "Dukungan Resmi",
+          "content": "Untuk dukungan resmi, silakan hubungi Garena secara langsung melalui saluran resmi dan sistem dukungan mereka."
+        }
+      },
+      "availability": {
+        "title": "6. Ketersediaan Layanan",
+        "intro": "Platform ini disediakan \"sebagaimana adanya\" tanpa jaminan apa pun. Kami berhak untuk memodifikasi, menangguhkan, atau menghentikan layanan kapan saja tanpa pemberitahuan.",
+        "content": "Kami tidak bertanggung jawab atas kerusakan, kerugian, atau masalah apa pun yang mungkin timbul dari penggunaan platform ini atau ketergantungan pada informasi apa pun yang diberikan di sini."
+      },
+      "guidelines": {
+        "title": "7. Pedoman Komunitas",
+        "content": "Semua pengguna harus mematuhi pedoman komunitas dan ketentuan layanan kami. Kami mempertahankan hak untuk memoderasi konten, menangguhkan akun, dan mengambil tindakan yang sesuai terhadap pengguna yang melanggar aturan kami atau terlibat dalam perilaku berbahaya."
+      },
+      "compliance": {
+        "title": "8. Kepatuhan Hukum",
+        "intro": "Pengguna bertanggung jawab untuk memastikan penggunaan platform ini mematuhi semua hukum dan peraturan lokal, nasional, dan internasional yang berlaku.",
+        "content": "Ini termasuk tetapi tidak terbatas pada hukum hak cipta, hak kekayaan intelektual, dan pembatasan apa pun pada konten terkait game di yurisdiksi mereka."
+      },
+      "contact": {
+        "title": "9. Informasi Kontak",
+        "intro": "Jika Anda memiliki pertanyaan tentang penyangkalan ini atau perlu melaporkan konten yang mungkin melanggar hukum atau pedoman kami, silakan hubungi kami melalui saluran komunitas kami.",
+        "official": {
+          "title": "Kontak Resmi Garena",
+          "content": "Untuk dukungan resmi Garena atau pertanyaan hukum terkait Free Fire atau Craftland, silakan hubungi Garena secara langsung melalui situs web resmi dan saluran dukungan mereka."
+        }
+      },
+      "acknowledgment": {
+        "title": "10. Pengakuan",
+        "content": "Dengan menggunakan Craftland Hub, Anda mengakui bahwa Anda telah membaca, memahami, dan setuju untuk terikat oleh penyangkalan ini. Jika Anda tidak setuju dengan bagian mana pun dari penyangkalan ini, harap jangan gunakan platform ini.",
+        "lastUpdated": "Penyangkalan ini terakhir diperbarui pada"
+      }
+    }
+  },
+  "metadata": {
+    "title": "Craftland Hub - Temukan Peta Kustom Free Fire yang Menakjubkan",
+    "description": "Jelajahi, kirim, dan beri nilai peta kustom Craftland untuk Free Fire. Bergabunglah dengan komunitas dan temukan peta menakjubkan yang dibuat oleh pemain di seluruh dunia.",
+    "keywords": "Free Fire, Craftland, peta kustom, peta Free Fire, Craftland Hub, komunitas gaming",
+    "ogTitle": "Craftland Hub - Komunitas Peta Free Fire Terbaik Anda",
+    "ogDescription": "Temukan, kirim, dan beri nilai peta kustom Craftland untuk Free Fire. Bergabunglah dengan ribuan pemain yang berbagi peta kustom menakjubkan.",
+    "twitterTitle": "Craftland Hub - Peta Kustom Free Fire",
+    "twitterDescription": "Jelajahi dan bagikan peta kustom Craftland untuk Free Fire. Bergabunglah dengan komunitas hari ini!"
+  }
+}

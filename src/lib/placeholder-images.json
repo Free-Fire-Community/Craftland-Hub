@@ -1,0 +1,76 @@
+{
+  "placeholderImages": [
+    {
+      "id": "map-cover-1",
+      "description": "A thrilling zombie survival map.",
+      "imageUrl": "https://picsum.photos/seed/map1/600/400",
+      "imageHint": "zombie apocalypse"
+    },
+    {
+      "id": "map-cover-2",
+      "description": "A high-speed racing circuit.",
+      "imageUrl": "https://picsum.photos/seed/map2/600/400",
+      "imageHint": "race track"
+    },
+    {
+      "id": "map-cover-3",
+      "description": "Challenging parkour course over a cityscape.",
+      "imageUrl": "https://picsum.photos/seed/map3/600/400",
+      "imageHint": "city parkour"
+    },
+    {
+      "id": "map-cover-4",
+      "description": "A tactical 4v4 arena.",
+      "imageUrl": "https://picsum.photos/seed/map4/600/400",
+      "imageHint": "arena combat"
+    },
+    {
+      "id": "map-cover-5",
+      "description": "A fun prop hunt in a mansion.",
+      "imageUrl": "https://picsum.photos/seed/map5/600/400",
+      "imageHint": "mansion interior"
+    },
+    {
+      "id": "map-cover-6",
+      "description": "A mysterious maze to escape from.",
+      "imageUrl": "https://picsum.photos/seed/map6/600/400",
+      "imageHint": "maze labyrinth"
+    },
+    {
+      "id": "map-cover-7",
+      "description": "A king of the hill style map on a mountain.",
+      "imageUrl": "https://picsum.photos/seed/map7/600/400",
+      "imageHint": "mountain top"
+    },
+    {
+      "id": "map-cover-8",
+      "description": "A peaceful social space to hang out.",
+      "imageUrl": "https://picsum.photos/seed/map8/600/400",
+      "imageHint": "social park"
+    },
+    {
+      "id": "map-cover-9",
+      "description": "A death run with many traps.",
+      "imageUrl": "https://picsum.photos/seed/map9/600/400",
+      "imageHint": "trap course"
+    },
+    {
+      "id": "map-cover-10",
+      "description": "A sniper duel on two towers.",
+      "imageUrl": "https://picsum.photos/seed/map10/600/400",
+      "imageHint": "sniper tower"
+    },
+    {
+      "id": "map-cover-11",
+      "description": "A naval battle simulation.",
+      "imageUrl": "https://picsum.photos/seed/map11/600/400",
+      "imageHint": "ship battle"
+    },
+    {
+      "id": "map-cover-12",
+      "description": "A puzzle map with intricate mechanics.",
+      "imageUrl": "https://picsum.photos/seed/map12/600/400",
+      "imageHint": "puzzle box"
+    }
+  ]
+}
